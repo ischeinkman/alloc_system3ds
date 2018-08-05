@@ -5,3 +5,7 @@ authors = ["The Rust Project Developers"]
 
 [lib]
 name = "alloc_system"
+crate-type = ["rlib"]
+
+[target.aarch64-none-elf.dependencies.libnx-rs]
+path = "../libnx-rs"
