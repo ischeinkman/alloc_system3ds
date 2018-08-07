@@ -8,4 +8,4 @@ name = "alloc_system"
 crate-type = ["rlib"]
 
 [target.aarch64-none-elf.dependencies.libnx-rs]
-git = "https://github.com/ischeinkman/libnx-rs-alloc_system"
+git = "https://github.com/ischeinkman/libnx-rs"
